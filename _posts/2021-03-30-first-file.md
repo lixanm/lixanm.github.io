@@ -1,5 +1,5 @@
 ---
-title: 你好，世界！
+title: 第一篇博客
 date: 2022-03-26 10:34:00 +0800
 categories: [随笔]
 tags: [生活]
@@ -29,6 +29,6 @@ int main(){
 }
 ```
 
-![image-20220327184021601](/assets/blog_res/2021-03-30-hello-world.assets/image-20220327184021601.png)
 
-![Screen Shot 2022-04-03 at 11.46.41 AM](/assets/blog_res/2021-03-30-hello-world.assets/Screen Shot 2022-04-03 at 11.46.41 AM.png)
+
+![chrome_6Ca6aOYSMn](/assets/blog_res/2021-03-30-first-file.assets/chrome_6Ca6aOYSMn.png)
