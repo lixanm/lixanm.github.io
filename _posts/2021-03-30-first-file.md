@@ -13,7 +13,7 @@ math: false
 mermaid: true
 
 image:
-  src: /assets/blog_res/2021-03-30-hello-world.assets/huoshan.jpg
+  src: /assets/blog_res/2021-03-30-first-file.assets/chrome_6Ca6aOYSMn.png
   alt: 签约成功
 
 ---
