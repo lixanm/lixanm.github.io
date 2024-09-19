@@ -63,7 +63,7 @@ int main()
     if(std::cin>>currVal)
     {
         int cnt=1;
-        
+        while()
     }
 }
 ````

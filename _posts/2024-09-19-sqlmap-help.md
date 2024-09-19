@@ -1,5 +1,5 @@
 ---
-title: 你好，世界！
+title: sqlmap_help
 date: 2022-03-26 10:34:00 +0800
 categories: [随笔]
 tags: [生活]
@@ -29,7 +29,7 @@ python sqlmap.py -r r.txt --columns -T flag -D sql_test	//找文件下的字段
 
 python sqlmap.py --purge
 
-python sqlmap.py -r r.txt --dump	//查找数据
+python sqlmap.py -r r.txt --dump	//查找数据1
 
 
 
