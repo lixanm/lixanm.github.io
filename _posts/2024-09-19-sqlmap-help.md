@@ -29,7 +29,7 @@ python sqlmap.py -r r.txt --columns -T flag -D sql_test	//找文件下的字段
 
 python sqlmap.py --purge
 
-python sqlmap.py -r r.txt --dump	//查找数据1
+python sqlmap.py -r r.txt --dump	//查找数据
 
 
 
