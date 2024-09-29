@@ -20,9 +20,9 @@ image:
 
 # python学习
 
-# 字符串
+# 2.字符串
 
-## 1.字符串三种定义方式
+## 2.1.字符串三种定义方式
 
 ```python
 a='1'
@@ -32,11 +32,11 @@ print(c)
 #输出：1
 ```
 
-## 2.字符串拼接
+## 2.2.字符串拼接
 
 字符串+字符串
 
-## 3.字符串格式化
+## 2.3.字符串格式化
 
 ````python
 a=1
@@ -58,7 +58,7 @@ print(c)
 #输出:我是理性暗面,今年是2024,19.990000
 ````
 
-## 4.字符串格式化的精度控制
+## 2.4.字符串格式化的精度控制
 
 ```python
 '''
@@ -74,7 +74,7 @@ print("%.3f"%b)
 #输出:12.123
 ```
 
-## 5.字符串格式化--快速写法
+## 2.5.字符串格式化--快速写法
 
 ```python
 name= "理性暗面"
@@ -92,7 +92,7 @@ print(f"我是{name}，今年{year},{price:.1f}")
 #输出:我是理性暗面，今年2004,20.0
 ```
 
-## 6.对表达式进行格式化
+## 2.6.对表达式进行格式化
 
 ```python
 #表达式：一条具有明确执行结果的代码语句
@@ -106,22 +106,22 @@ print("%s" % type('字符串'))
 '''
 ```
 
-# 数据输入
+# 3.数据输入
 
 ```python
 #input()函数的使用
 name=int(input("请输入你的年龄："))
 ```
 
-# python判断类型
+# 4.python判断类型
 
-## 1.布尔类型和比较运算符
+## 4.1.布尔类型和比较运算符
 
 ```python
 a=true
 ```
 
-## 2.if语句的基本格式
+## 4.2.if语句的基本格式
 
 ````python
 age=30
@@ -130,7 +130,7 @@ if age>=18:
 b=2
 ````
 
-## 3.if else
+## 4.3.if else
 
 ```python
 a=8
@@ -140,14 +140,14 @@ else:
 	a=0
 ```
 
-## 4.if elif else
+## 4.4.if elif else
 
 ```python
 ```
 
-# python循环语句
+# 5.python循环语句
 
-## 1.while
+## 5.1.while
 
 ```python
 i=0
@@ -156,7 +156,7 @@ while i<100:
     i+=1
 ```
 
-## 2.for
+## 5.2.for
 
 ```python
 '''
@@ -168,7 +168,7 @@ for x in name:
     print(x)
 ```
 
-## 3.for循环的range语句
+## 5.3.for循环的range语句
 
 ```python
 #range(5)=[0,1,2,3,4]
@@ -183,7 +183,7 @@ for x in range(10):
     print(x)
 ```
 
-## 4.for循环临时变量作用域
+## 5.4.for循环临时变量作用域
 
 ```python
 i=0
@@ -192,7 +192,7 @@ for i in range(5):
 print(i)
 ```
 
-## 5.for循环打印99乘法表
+## 5.5.for循环打印99乘法表
 
 ```python
 for i in range(1,10):
@@ -201,16 +201,16 @@ for i in range(1,10):
     print()
 ```
 
-## 6.continue和break
+## 5.6.continue和break
 
 ```python
 #暂时跳过某次循环，直接进行下一次--continue
 #提前退出循环，不再继续--break
 ```
 
-# 函数
+# 7.函数
 
-## 1.介绍
+## 7.1.介绍
 
 ```python
 def my_len(data):
@@ -227,7 +227,7 @@ my_len(b)
 my_len(c)
 ```
 
-## 2.变量在函数中的作用域
+## 7.2.变量在函数中的作用域
 
 ```python
 num=100
@@ -244,7 +244,7 @@ testA()
 testB()
 ```
 
-## 3.ATM案例
+## 7.3.ATM案例
 
 ```python
 money=5000000
@@ -288,9 +288,9 @@ def fanhui():
 zhucaidan()
 ```
 
-# python数据容器
+# 8.python数据容器
 
-## 1.入门
+## 8.1.入门
 
 ```python
 name_list = ['1','2','3','4']
@@ -304,7 +304,7 @@ name_list = ['1','2','3','4']
 '''
 ```
 
-## 2.列表list
+## 8.2.列表list
 
 ```python
 name_list=['1','2']
