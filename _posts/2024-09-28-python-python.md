@@ -110,7 +110,7 @@ print("%s" % type('字符串'))
 
 ```python
 #input()函数的使用
-name=input()
+name=int(input("请输入你的年龄："))
 ```
 
 # python判断类型
@@ -118,6 +118,113 @@ name=input()
 ## 1.布尔类型和比较运算符
 
 ```python
+a=true
+```
+
+## 2.if语句的基本格式
+
+````python
+age=30
+if age>=18:
+    print("age>=18")
+b=2
+````
+
+## 3.if else
+
+```python
+a=8
+if a!=0:
+	a=1
+else:
+	a=0
+```
+
+## 4.if elif else
+
+```python
+```
+
+# python循环语句
+
+## 1.while
+
+```python
+i=0
+while i<100:
+    print("小美，我喜欢你")
+    i+=1
+```
+
+## 2.for
+
+```python
+'''
+while循环的循环条件是自定义的，自行控制循环条件
+for循环是对一批内容进行逐个处理
+'''
+name="itheima"
+for x in name:
+    print(x)
+```
+
+## 3.for循环的range语句
+
+```python
+#range(5)=[0,1,2,3,4]
+'''
+range(num1,num2,num3)
+起始，结尾，步长
+range(5,10,2)=[5,7,9]
+'''
+
+#range语法1
+for x in range(10):
+    print(x)
+```
+
+## 4.for循环临时变量作用域
+
+```python
+i=0
+for i in range(5):
+    print(i)
+print(i)
+```
+
+## 5.for循环打印99乘法表
+
+```python
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(f"{i}*{j}={i*j}\t",end="")
+    print()
+```
+
+## 6.continue和break
+
+```python
+#暂时跳过某次循环，直接进行下一次--continue
+#提前退出循环，不再继续--break
+```
+
+# 函数
+
+## 1.介绍
+
+```python
+def my_len(data):
+    count=0
+    for i in data:
+        count+=1
+    print(f"{data}的长度为{count}")
+
+a="1234567"
+b="12345"
+c='123'
+my_len(a)
+my_len(b)
+my_len(c)
 ```
 
 
