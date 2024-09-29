@@ -227,6 +227,67 @@ my_len(b)
 my_len(c)
 ```
 
+## 2.变量在函数中的作用域
+
+```python
+num=100
+def testA():
+    print(num)
+
+def testB():
+    global num
+    #global   关键字声明a是全局变量
+    num=200
+    print(num)
+
+testA()
+testB()
+```
+
+## 3.ATM案例
+
+```python
+money=5000000
+name=input("请输入姓名:")
+def chaxun():
+    print(f"当前余额{money}")
+    a=int(input("按1返回主菜单"))
+    if a==1:
+        zhucaidan()
+def chunkuan(ck):
+    global money
+    money+=ck
+    chaxun()
+    fanhui()
+def qukuan(qk):
+    global money
+    money-=qk
+    chaxun()
+    fanhui()
+def zhucaidan():
+    print("请选择您要办理的业务：")
+    print("1.查询余额")
+    print("2.存款")
+    print("3.取款")
+    a=int(input("请输入序号:"))
+    if a==1:
+        chaxun()
+    elif a==2:
+        ck=int(input("请输入存款数量："))
+        chunkuan(ck)
+    elif a==3:
+        qk=int(input("请输入取款数量："))
+        qukuan(qk)
+    else:
+        print("报错")
+        fanhui()
+def fanhui():
+    a=int(input("按1返回主菜单:"))
+    if a==1:
+        zhucaidan()
+zhucaidan()
+```
+
 
 
 
