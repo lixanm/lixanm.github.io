@@ -194,6 +194,14 @@ void EatFoot()
 	}
 }
 //碰到自己
+void SnakeSnake()
+{
+	for (int i = 1; i <= snake.num-1; i++)
+	{
+		if (snake.coor[0].x == snake.coor[i].x && snake.coor[0].y == snake.coor[i].y)
+			exit(0);
+	}
+}
 
 //碰到墙
 void SnakeQiang()
@@ -231,6 +239,7 @@ int main()
 		FlushBatchDraw();//刷新屏幕
 
 		SnakeQiang();
+		SnakeSnake();
 		EatFoot();
 		Sleep(100);
 
