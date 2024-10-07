@@ -18,7 +18,7 @@ image:
 
 ---
 
-# 感谢关注～ 
+# 贪吃蛇
 
 ```cpp
 #include<graphics.h>
